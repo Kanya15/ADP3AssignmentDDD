@@ -8,10 +8,11 @@ package za.ac.cput.Entity;
 
 public class Consultation {
 
-    private String consultDate, consultReport;
+    private String consultID,consultDate, consultReport;
 
     public Consultation(Builder builder) {
 
+        this.consultID = builder.consultID;
         this.consultDate = builder.consultDate;
         this.consultReport = builder.consultReport;
 
@@ -28,13 +29,33 @@ public class Consultation {
 
     public String getConsultID() {
 
-        String consultationID = "";
-        return consultationID;
+        return consultID;
     }
+
+
+    public String getConsultDate() {
+
+        return consultDate;
+    }
+
+    public String getConsultReport() {
+
+        return consultReport;
+    }
+
 
     public static class Builder {
 
-        private String consultDate, consultReport;
+        private String consultID, consultDate, consultReport;
+
+
+
+        public Builder setConsultID(String consultID) {
+
+            this.consultID = consultID;
+
+            return this;
+        }
 
         public Builder setConsultDate(String consultDate) {
 
@@ -62,6 +83,5 @@ public class Consultation {
 
             return this;
         }
-
     }
 }
