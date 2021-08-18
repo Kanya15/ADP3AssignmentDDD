@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.Repository;
 
 public interface IRepository <T,ID>
 {

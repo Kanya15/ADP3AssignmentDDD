@@ -1,8 +1,9 @@
-package za.ac.cput;
+package za.ac.cput.Factory;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import za.ac.cput.Entity.Consultation;
+import za.ac.cput.Factory.ConsultationFactory;
 
 
 import java.util.concurrent.TimeUnit;

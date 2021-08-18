@@ -4,7 +4,7 @@ Author: Kanya Ramncwana (218297521)
 Date: 24 July 2021
  */
 
-package za.ac.cput;
+package za.ac.cput.Repository;
 
 import za.ac.cput.Entity.Consultation;
 

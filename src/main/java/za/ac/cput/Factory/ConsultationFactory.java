@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.Factory;
 
 import za.ac.cput.Entity.Consultation;
 

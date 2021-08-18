@@ -1,12 +1,12 @@
-package za.ac.cput;
+package za.ac.cput.Repository;
 
 import org.junit.jupiter.api.Test;
 import za.ac.cput.Entity.Consultation;
-import za.ac.cput.ConsultationFactory;
+import za.ac.cput.Factory.ConsultationFactory;
+import za.ac.cput.Repository.ConsultationRepository;
 
 
 import static org.junit.jupiter.api.Assertions.*;
-import static za.ac.cput.ConsultationFactory.createConsultation;
 
 class ConsultationRepositoryTest {
 
